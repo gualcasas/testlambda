@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "pnpm tsc"
     },
     "prettier": {
         "tabWidth": 4
@@ -15,7 +15,6 @@
         "@types/aws-lambda": "^8.10.115",
         "@types/node": "^20.2.3",
         "aws-lambda": "^1.0.7",
-        "typescript": "^5.0.4",
-        "aws-sdk": "^2.1382.0"
+        "typescript": "^5.0.4"
     }
 }
